@@ -23,5 +23,9 @@ cybercommons_cybercom_api_1
 cybercommons_cybercom_celery_1
 If theses are all running smooth when we run [docker-compose up -d] we know the Django Rest Framework API has been setup correctly
 
+System test in-dpeth:
+[Put what you had here tony]
+
 ## Acceptance tests
 For acceptance tests we ensure that the configured API correctly runs http://localhost:8080 on the local host
+
