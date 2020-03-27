@@ -17,10 +17,15 @@ Unit test in-depth:
 ## System tests
 For system tests we simply run the api with the help of docker given that we all run on different operating systems as well as other possible users of the api. To ensure the system runs correctly we are able to check docker to make sure all versions:
 cybercommons_cybercom_mongo_1  
+
 cybercommons_cybercom_memcache_1 
+
 cybercommons_cybercom_rabbitmq_1 
-cybercommons_cybercom_api_1      
+
+cybercommons_cybercom_api_1   
+
 cybercommons_cybercom_celery_1
+
 If theses are all running smooth when we run [docker-compose up -d] we know the Django Rest Framework API has been setup correctly
 
 System test in-dpeth:
