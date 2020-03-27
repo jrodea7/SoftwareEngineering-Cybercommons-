@@ -35,7 +35,7 @@ If theses are all running smooth when we run [docker-compose up -d] we know the 
 4. Functionalities such as searching, sorting, filtering, adding? We have tested the application by adding our own JSON documents into the framework. This application can search and filter keywords within the document to a certain extent. However we have noticed a few small bugs that still need to be sorted out with these functionalities
 
 ## Acceptance tests
-For acceptance tests we ensure that the configured API correctly runs http://localhost:8080 on the local host. If this runs correctly with the login and password that cybercommons provides, we know that the user has been acceptance into the database. Originally we had some troubles with the port numbers incorrectly being set in which case we were not able to access the url site. After some small modifications this has been corrected when running small acceptance tests.
+For acceptance tests we ensure that the configured API correctly runs http://localhost:8080 on the users local computer. If this runs correctly with the login and password that cybercommons provides, we know that the user has been acceptance into the database. Originally we had some troubles with the port numbers incorrectly being set in which case we were not able to access the url site. After some small modifications this has been corrected when running small acceptance tests.
 
 ### Acceptance test outline:
 
