@@ -30,13 +30,13 @@ If theses are all running smooth when we run [docker-compose up -d] we know the 
 
 System test in-dpeth:
 1. Does the application launch properly with Docker and Docker Compose? Yes, Docker is a container independent of the OS. It can be deployed quickly.
-
 2. Can a user register to use the framework and database? Yes we tested for user registration using the web application.
-
-3. Does the application launch properly for all different OS and web browsers? Yes as it uses Docker.
-
-4. Functionalities such as searching, sorting, filtering, adding? We have tested the application by adding our own JSON documents into the framework. This application can search and filtering keywords within the document.
+3. Does the application launch properly for all different OS and web browsers? Yes as it uses Docker whihc allows this.
+4. Functionalities such as searching, sorting, filtering, adding? We have tested the application by adding our own JSON documents into the framework. This application can search and filter keywords within the document to a certain extent. However we have noticed a few small bugs that still need to be sorted out with these functionalities
 
 ## Acceptance tests
-For acceptance tests we ensure that the configured API correctly runs http://localhost:8080 on the local host
+For acceptance tests we ensure that the configured API correctly runs http://localhost:8080 on the local host. If this runs correctly with the login and password that cybercommons provides, we know that the user has been acceptance into the database. Originally we had some troubles with the port numbers incorrectly being set in which case we were not able to access the url site. After some small modifications this has been corrected when running small acceptance tests.
+
+Acceptance test in-depth:
+
 
