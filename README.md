@@ -16,15 +16,14 @@ Our sponsor, Typer Pearson, had a good working system. He wanted us to add addit
 ## What We Learned
 We learned about the technologies involved and experimented with it. We feel confident in using Docker and Docker-Compose in creating Makefiles and docker-compose.yml to deploy services. We feel confident in Python3 coding along with JavaScript. We did not make a huge contribution to Cybercommons but we did bring up issues that occur when deploying it to our sponsor. The issue was port errors that occur and he thanked us for letting him know.
 
-## Deployment
-# Requirements
+## Requirements
 
 * Docker
 * Docker Compose
     * `pip install docker-compose`
 * GNU Make or equivalent
 
-# Installation
+## Deployment
 1. Edit values within dc_config/cybercom_config.env
 2. Initialize database and generate internal SSL certs
 
