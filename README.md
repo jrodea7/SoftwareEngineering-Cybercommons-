@@ -15,3 +15,20 @@ Our sponsor, Typer Pearson, had a good working system. He wanted us to add addit
 
 ## What We Learned
 We learned about the technologies involved and experimented with it. We feel confident in using Docker and Docker-Compose in creating Makefiles and docker-compose.yml to deploy services. We feel confident in Python3 coding along with JavaScript. We did not make a huge contribution to Cybercommons but we did bring up issues that occur when deploying it to our sponsor. The issue was port errors that occur and he thanked us for letting him know.
+
+## Installation
+
+** Requires Docker and CookieCutter (pip install cookiecutter) **
+
+1. Run the following to create file structure => cookiecutter https://github.com/cybercommons/cybercom-cookiecutter.git
+2. Add aauthor and application title to your application
+    author [Some Guy]:
+    application_title [Some Application]:
+3. Add application name:
+    application_short_name [someapp]:
+4. Build Docker container with:
+    cd someapp/api_code
+    docker build -t api .
+    cd ..
+5. Run the application:
+  ./run/cybercom_up
