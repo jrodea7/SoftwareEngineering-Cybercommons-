@@ -1,6 +1,6 @@
 # Cybercommons
 
-## What?
+## What is it?
 Cybercommons is a web application that allow for storage of catalogs and other types of data onto a database. Our sponsor, Tyler Pearson, essentially describes Cybercommons as a Django REST framework API. Visit the Repo here -> https://github.com/cybercommons
 
 ## Technologies Used
@@ -16,7 +16,34 @@ Our sponsor, Typer Pearson, had a good working system. He wanted us to add addit
 ## What We Learned
 We learned about the technologies involved and experimented with it. We feel confident in using Docker and Docker-Compose in creating Makefiles and docker-compose.yml to deploy services. We feel confident in Python3 coding along with JavaScript. We did not make a huge contribution to Cybercommons but we did bring up issues that occur when deploying it to our sponsor. The issue was port errors that occur and he thanked us for letting him know.
 
-## Installation
+## Deployment
+# Requirements
+
+* Docker
+* Docker Compose
+    * `pip install docker-compose`
+* GNU Make or equivalent
+
+# Installation
+1. Edit values within dc_config/cybercom_config.env
+2. Initialize database and generate internal SSL certs
+
+        $ make init
+
+3. Build and Deploy
+
+        $ make build
+        $ make run
+
+4. API running http://localhost:8080
+    * Username: admin
+    * Password: admincybercom
+
+5. Kill
+
+        $ make stop
+
+## Installation (version 2)
 
 ** Requires Docker and CookieCutter (pip install cookiecutter) **
 
