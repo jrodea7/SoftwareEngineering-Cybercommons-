@@ -45,6 +45,8 @@ Reference file: Testing.md and testing branch for further information
 
         $ make stop
 
+If problems reference: (https://github.com/oulib-datacatalog/cybercommons)
+
 ## Installation (version 2)
 
 ** Requires Docker and CookieCutter (pip install cookiecutter) **
