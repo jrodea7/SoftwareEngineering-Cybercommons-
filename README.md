@@ -24,7 +24,7 @@ We learned about the technologies involved and experimented with it. We feel con
 * GNU Make or equivalent
 
 ## Deployment
-1. Edit values within dc_config/cybercom_config.env
+1. Edit values within dc_config/cybercom_config.env  (not required)
 2. Initialize database and generate internal SSL certs
 
         $ make init
